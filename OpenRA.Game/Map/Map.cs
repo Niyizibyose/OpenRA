@@ -149,7 +149,7 @@ namespace OpenRA
 
 	public class Map : IReadOnlyFileSystem
 	{
-		public const int SupportedMapFormat = 11;
+		public const int SupportedMapFormat = 12;
 
 		/// <summary>Defines the order of the fields in map.yaml</summary>
 		static readonly MapField[] YamlFields =
